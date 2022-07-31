@@ -1,0 +1,57 @@
+.detail_wrap {
+  /* width: 80%; */
+  margin: 0 auto;
+  background-color: rgb(29, 0, 91);
+  position: relative;
+  color: white;
+}
+.loading {
+  font-size: 5rem;
+  font-weight: 700;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.movie_container {
+  width: 80%;
+  background-color: rgba(255, 0, 0, 0.1);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.movie_title {
+  font-size: 3rem;
+  padding-left: 1rem;
+  color: #f2f2f2;
+  margin-top: 1rem;
+  flex: 100%;
+}
+.movie_img {
+  display: block;
+  width: 50px;
+  flex: 80%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.movie_rate {
+  padding: 2rem;
+}
+.movie_year {
+  padding: 2rem;
+}
+.movie_genres {
+  padding: 2rem;
+  display: flex;
+}
+.genres {
+  margin-left: 1rem;
+}
+.movie_desc {
+  flex: 100%;
+  padding: 3rem;
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
